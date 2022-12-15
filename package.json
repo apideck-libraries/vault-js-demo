@@ -16,9 +16,12 @@
   },
   "dependencies": {
     "@apideck/components": "^0.12.3",
+    "@apideck/node": "^2.4.0",
+    "@apideck/vault-js": "^0.1.6",
     "next": "^13.0.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-syntax-highlighter": "^15.5.0"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.2",
@@ -29,8 +32,10 @@
     "@types/node": "^18.6.3",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "@types/react-syntax-highlighter": "^15.5.5",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
+    "@vercel/node": "^2.8.1",
     "autoprefixer": "^10.4.13",
     "babel-jest": "^28.1.3",
     "eslint": "^8.21.0",
