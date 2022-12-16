@@ -18,7 +18,7 @@ const MyComponent = () => {
   )
 }`
 
-export const backendExample = `import Apideck, { CreateSessionResponse } from '@apideck/node'
+export const backendExample = `import Apideck from '@apideck/node'
 
 export default async function handler(_, res) {
   const apideck = new Apideck({
