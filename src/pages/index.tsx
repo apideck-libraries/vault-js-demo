@@ -17,17 +17,13 @@ const IndexPage: NextPage = () => {
       const response = await fetch('/api/vault/sessions', { method: 'POST' })
       const { data } = await response.json()
       const token = data.session_token
-
-      console.log('ApideckVault', ApideckVault)
-
-      ApideckVault.open({ token })
+      ApideckVault.open({ token, onReady: () => setIsLoading(false) })
     } catch (error: any) {
       addToast({
         title: 'Something went wrong',
         description: error?.message || error,
         type: 'error'
       })
-    } finally {
       setIsLoading(false)
     }
   }

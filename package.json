@@ -17,7 +17,7 @@
   "dependencies": {
     "@apideck/components": "^0.12.3",
     "@apideck/node": "^2.4.0",
-    "@apideck/vault-js": "^0.1.6",
+    "@apideck/vault-js": "^1.0.0",
     "next": "^13.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
