@@ -138,7 +138,7 @@ const IndexPage: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-6 max-w-7xl px-4 mx-auto pb-32">
+            <div className="grid lg:grid-cols-2 gap-6 max-w-7xl px-4 mx-auto pb-32">
               <CodeBlock title="Client side" code={frontendExample} />
               <CodeBlock title="Server side" code={backendExample} />
             </div>
