@@ -17,7 +17,7 @@ const IndexPage: NextPage = () => {
       const response = await fetch('/api/vault/sessions', { method: 'POST' })
       const { data } = await response.json()
       const token = data.session_token
-      ApideckVault.open({ token, onReady: () => setIsLoading(false) })
+      ApideckVault.open({ token, showLanguageSwitch: true, onReady: () => setIsLoading(false) })
     } catch (error: any) {
       addToast({
         title: 'Something went wrong',
