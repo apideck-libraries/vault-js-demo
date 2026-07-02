@@ -19,6 +19,7 @@
     "@apideck/node": "^2.4.0",
     "@apideck/vault-js": "^1.6.0",
     "next": "^13.0.6",
+    "posthog-js": "^1.396.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-syntax-highlighter": "^15.5.0"
