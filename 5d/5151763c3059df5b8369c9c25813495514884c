@@ -1,0 +1,31 @@
+src/pages/_app.tsx
+  s_b71957410a19fc::t_6e94004b3f0814 5,10-16
+.env.example
+  s_b71957410a19fc::t_5f256816d80a1a 2-10
+package.json
+  s_b71957410a19fc::t_f69f1d10469ae3 22
+src/components/analytics/Analytics.tsx
+  s_b71957410a19fc::t_d453ddccdfb31c 1-28
+src/components/analytics/HubspotTracking.tsx
+  s_b71957410a19fc::t_6d938e56c2d64d 1-58
+src/components/analytics/PostHogTracking.tsx
+  s_b71957410a19fc::t_8341a7f50aa501 1-427
+yarn.lock
+  s_b71957410a19fc::t_34a7bcca554783 976-987,1280-1284,2050-2054,2302-2308,2962-2966,5106-5119,5125-5129,5236-5240,6199-6203
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "5d5151763c3059df5b8369c9c25813495514884c",
+  "prompts": {},
+  "sessions": {
+    "s_b71957410a19fc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "501cc66c-24be-4ee8-9fe2-8222cb4b8c4f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Gertjan de Wilde <gertjan@apideck.com>"
+    }
+  }
+}
